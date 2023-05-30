@@ -1,0 +1,146 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* header */
+header {
+    text-align: center;
+    padding: 0px;
+    background-color: #ffffff;
+    
+    }
+.header h1 {
+    color: rgb(255, 255, 255); 
+    background-image: linear-gradient(to right, rgba(95, 19, 19, 0.993), rgb(165, 32, 32));
+    padding: 0px; 
+    margin-top: 0px;
+    text-align: center;
+    font-family: Georgia, serif 
+    
+}
+
+.header img{
+    height: 50px; 
+    vertical-align: middle; 
+    margin-left: 10px;
+    margin-right: 12px;
+    position: relative;
+}
+    
+
+/* main container */
+.main-container{
+    width: 100%;
+}
+
+#info-container{
+    display:none;
+    flex-direction: column;
+    position: fixed;
+    overflow: hidden;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    height: 350px;
+    width: 250px;
+    z-index: 1;
+    left: 0;
+    top: 24px;
+}
+
+.map-img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.list{
+    margin-left: 12%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: rgb(95, 13, 13);
+    font-size: 23px;
+}
+
+.list .h2{
+    text-align: center;
+    margin-left: 10px;
+
+}
+.coords{
+    margin-left: 25px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 3px;
+    background-color: rgb(95, 13, 13);
+    text-align: center;
+    
+}  
+
+.pup-map{
+    margin-left:16%; 
+    margin-bottom: 10px;
+    width: 100%; 
+    background-color: rgb(95, 13, 13);
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pup-map .h1{
+    text-align: center;
+    font-size: 15px;
+}
+
+#text-container{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#title-container{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.map-container{
+    display: flex;
+    
+}
+
+.img-container{
+    object-fit: cover;
+    
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 1px;
+    background-color: #5c0909;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+footer .p{
+    margin: 0;
+    
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html language="english">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>PUP Kiosk</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+          <img src="img/PUPLogo.png" alt="logo">
+          Polytechnic University of the Philippines
+      </h1>
+    </div>
+    
+    <div class="main-container">
+        <div class="map-img-container">
+            <div class="coords">
+                <h2>Cursor Coordinates:</h2>
+                <p>X: <span id="x">n/a</span></p>
+                <p>Y: <span id="y">n/a</span></p>
+              </div>
+            <div>
+                <div class="pup-map">
+                    <h1>PUP Map</h1>
+                    <center><h3>Hover your mouse pointer on any area of the map to <br>
+                       view its corresponding details.</h3>
+                    </center>
+                    <img src="img/pupmap.gif" alt="pup map" usemap="#pupmap">
+                  </div>
+             </div>
+             <div class="list">
+                 <center><h2>Mapped Areas:</h2></center>
+                 <ol>
+                    <li>Amphitheater (1)</li>
+                    <li>Lagoon (13)</li>
+                    <li>Stadium (9) </li>
+                    <li>Obelisk (32)</li>
+                    <li>Gymnasium (10)</li>
+                    <li>Cat walk (4)</li>
+                    <li>Ferry Station (27)</li>
+                    <li>Learning Resource Center (21)</li>
+                    <li>Admin (25)</li>
+                    <li>Pasig River (26)</li>
+                 </ol>
+             </div>  
+        </div>
+      
+      <map name="pupmap">
+        <div class="map-container" id="0" onmousemove="mouseOver(this.id)">
+          <area alt=""  href="#" coords="216,228,14" shape="circle">
+      </div>
+      <div class="map-container" id="1" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="260,192 263,204 235,217 223,216 232,148 241,126 248,152 253,173 " shape="polygon">
+      </div>
+      <div class="map-container" id="2" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="384,240 394,246 382,266 361,292 352,286 368,262 " shape="polygon">
+      </div>
+      <div class="map-container" id="3" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="321,188,13" shape="circle">
+      </div>
+      <div class="map-container" id="4" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="375,46,465,93" shape="rect">
+      </div>
+      <div class="map-container" id="5" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="503,177 505,181 468,181 415,181 359,181 319,120 325,115 351,163 356,172 377,175 414,175 467,175 504,178 " shape="polygon">
+      </div>
+      <div class="map-container" id="6" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="115,371,142,415" shape="rect">
+      </div>
+      <div class="map-container" id="7" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="191,42 171,49 184,100 174,103 178,116 187,116 199,165 222,161 211,115 252,101 244,81 206,90 197,60 " shape="polygon">
+      </div>
+      <div class="map-container" id="8" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="262,39,284,121" shape="rect">
+      </div>
+      <div class="map-container" id="9" onmouseover="mouseOver(this.id)">
+          <area alt="" href="#" coords="1,25 23,62 48,159 60,197 64,259 78,273 79,301 93,341 105,424 1,425 0,292 " shape="polygon">
+      </div>
+      </map>
+      
+      <div id="info-container">
+        <img id="img-container" style="width: 100%; height: 50%; border-radius: 7px" src="" alt="">
+        <div id="title-container">Title</div>
+        <div id="text-container">Text</div>
+      </div>
+            
+    </div>
+   
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>Copyright © 2023 PUP MAP. All rights reserved.</p>
+  </footer>
+</html>
