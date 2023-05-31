@@ -4,16 +4,16 @@ var titleContainer = document.getElementById("title-container");
 var textContainer = document.getElementById("text-container");
 var imgHolder = ["img/image1.jpg", "img/image13.jpg", "img/image9.jpg", "img/image32.jpg", "img/image10.jpg", "img/image4.jpg", 
 "img/image27.jpg", "img/image21.jpg", "img/image25.jpg", "img/image26.jpg"];
-var textHolder = [["Amphitheater","Amphitheater is a Performance Art Theatre, located at: PUP Main Northwest Road, A. Mabini Campus, Anonas St., Sta. Mesa, Quezon City, Philippines."]
-,["Lagoon","sd"]
-,["Stadium ","a"]
-,["Obelisk","a"]
-,["Gymnasium","a"]
-,["Cat walk","a"]
-,["Ferry Station","a"]
-,["Learning Resource Center","a"]
-,["Admin","a"]
-,["Pasig river","a"]];
+var textHolder = [["Amphitheater"," Amphitheater is a proscenium theatre with a 650-seating capacity of balcony and orchestra spaces."]
+,["Lagoon","This where most lovers spend most of their time because of its relaxing atmosphere."]
+,["Grandstand","This is an elevated seating structure designed to accommodate a significant number of spectators, allowing them to enjoy the event comfortably."]
+,["Obelisk","Its five concentric circles represent infinite wisdom and each point of the star signifies integrity, ingenuity, industry, intelligence and internationalism."]
+,["Gymnasium","Gymnasium serves as the training ground for the student athletes that participate in the intercollegiate sports program."]
+,["Cat walk","This is where most students were stumbling."]
+,["Ferry Station","Ferry station plays a vital role along Pasig River, providing an alternative mode of travel for some of the students."]
+,["Learning Resource Center","This serves as a hub for various learning materials, technology, and academic support resources."]
+,["Charlie Del Rosario Building","The Charlie Del Rosario Building is a structure dedicated to the first victim of the Marcos Regime."]
+,["Pasig river","The Pasig River runs through the heart of Manila and flows from Laguna de Bay to Manila Bay."]];
 
     //Amphitheater (1)
     //Lagoon (13)
@@ -23,7 +23,7 @@ var textHolder = [["Amphitheater","Amphitheater is a Performance Art Theatre, lo
     //Cat walk (4)
     //Ferry Station (27)
     //Learning Resource Center (21)
-    //Admin (25)
+    //Charlie Del Rosario Building (6)
     //Pasig river (26) 
 
 function mouseOver(value){
